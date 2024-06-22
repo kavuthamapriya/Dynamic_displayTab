@@ -7,14 +7,12 @@ body {
   align-items: center;
   height: 100vh;
 }
-
 .container {
   width: 80%;
   max-width: 800px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
 }
-
 .title {
   text-align: center;
   font-size: 29px;
@@ -24,14 +22,12 @@ body {
   background-color: #007bff;
   color: #fff;
 }
-
 .header {
   display: flex;
   background-color: #007bff;
   color: white;
   cursor: pointer;
 }
-
 .header div {
   flex: 1;
   padding: 15px;
@@ -39,16 +35,13 @@ body {
   cursor: pointer;
   position: relative;
 }
-
 .header div:hover {
   background-color: #0056b3;
 }
-
 .header .active {
   background-color: #0056b3;
   font-weight: bold;
 }
-
 .indicator {
   position: relative;
   height: 4px;
